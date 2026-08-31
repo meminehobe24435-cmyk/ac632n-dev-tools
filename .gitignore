@@ -7,3 +7,6 @@ build_uart_gui/JieLi_UART_Print_Receiver/
 
 # ---- 临时：嵌套仓库元数据移位备份（上传后还原为 .git）----
 .git.bak/
+
+# ---- 本地空检出（无内容，不入库）----
+work/gitee_fw-AC63_BT_SDK/
