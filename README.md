@@ -1,29 +1,29 @@
 # ac632n-dev-tools
 
-杰理 AC6321A / AC632N 蓝牙开发自研工具集，覆盖 **SPP+LE 固件构建、USB UBOOT 烧录、UART 串口日志、蓝牙改名构建、BLE 扫描、UART 打印 GUI** 与 **钉钉日报 PPT 自动化** 全流程。
-
-> 说明：杰理官方 SDK 与固件工程副本（`sdk/`、`work/`、`tools/` 等）因体积过大且版权归原厂，未纳入本仓库；本地路径与依赖环境见 `README_AC6321A_WORKFLOW.txt`。
+杰理 AC6321A / AC632N 蓝牙开发工作区完整备份，覆盖 **SPP+LE 固件构建、USB UBOOT 烧录、UART 串口日志、蓝牙改名构建、BLE 扫描、UART 打印 GUI** 与 **钉钉日报 PPT 自动化** 全流程，按类别整理如下。
 
 ## 目录结构
 
 ```
-├─ 01_open_codeblocks_project.bat      # 打开 Code::Blocks 工程
-├─ 02_build_ac6321a_spp_and_le.bat     # 构建 SPP+LE 固件
-├─ 03_burn_ac6321a_usb_uboot.bat       # USB UBOOT 烧录
-├─ 04_open_isd_download_gui.bat        # 打开 ISD 下载工具
-├─ 05_list_serial_ports.bat            # 列出串口
-├─ 06_receive_uart_log_COMx.bat        # 接收 UART 日志（默认 1000000 波特率）
-├─ 07_set_bt_name_build.bat            # 修改蓝牙名并重新构建
-├─ build_ac632n_spp_and_le.bat         # 直接构建 ac632n_spp_and_le 目标
-├─ set_bt_name_and_build.ps1           # 修改 .edr_name 并构建（参数校验版）
-├─ python_tools/                       # 串口日志工具 jieli_uart_logger.py
-├─ debug_tools/                        # 串口调试脚本、uart_print_gui.py、BLE 扫描、原理图
-├─ build_uart_gui/                     # JieLi_UART_Print_Receiver PyInstaller spec
-├─ dist/                               # JieLi_UART_Print_Receiver.exe（可直接运行）
-├─ env_check/                          # 环境检查脚本与截图
-├─ ppt_work/                           # 钉钉日报 PPT 自动化生成
-├─ logs/                               # 调试期间串口日志
-└─ README_AC6321A_WORKFLOW.txt         # 完整工作流说明
+├─ 01~07_*.bat / build_ac632n_spp_and_le.bat   # 构建/烧录/串口快捷脚本
+├─ set_bt_name_and_build.ps1                   # 修改蓝牙名并重新构建（参数校验版）
+├─ README_AC6321A_WORKFLOW.txt                 # 完整工作流说明（本地依赖路径）
+├─ sdk/                                        # 杰理官方 SDK（fw-AC63_BT_SDK 完整工程）
+├─ work/                                       # 固件工程副本
+│  ├─ gitee_fw-AC63_BT_SDK_clean/              # SDK 干净副本
+│  ├─ gitee_fw-AC63_BT_SDK_official_burn/      # 官方烧录版副本
+│  ├─ WT9011DCL_BT50_FW/                       # WT9011DCL BT50 产品固件工程
+│  └─ gitee_fw-AC63_BT_SDK/                    # （本地为空检出，无内容）
+├─ tools/                                      # 杰理工具链安装包与辅助工具
+├─ CodeBlocks/                                 # Code::Blocks IDE 运行时
+├─ python_tools/                               # 自研串口日志工具 jieli_uart_logger.py
+├─ debug_tools/                                # 串口调试、BLE 扫描、uart_print_gui.py、原理图
+├─ build_uart_gui/ + dist/                     # JieLi_UART_Print_Receiver GUI（spec + exe）
+├─ env_check/                                  # 环境检查脚本与截图
+├─ ppt_work/                                   # 钉钉日报 PPT 自动化
+├─ logs/                                       # 调试期间串口日志
+├─ screenshots/                                # 工具截图
+└─ python_pkgs/                                # Python 依赖包缓存
 ```
 
 ## 快速开始
@@ -38,6 +38,8 @@
 powershell -File set_bt_name_and_build.ps1 -Name MY_JL_BT
 ```
 
-## 免责声明
+## 说明与免责声明
 
-本仓库仅包含自研脚本与工具；杰理 SDK、固件工程副本、工具链安装包等第三方内容的版权归各自权利方所有，未随仓库分发。
+- 本仓库为个人开发工作区备份；杰理 SDK、固件工程、工具链安装包等第三方内容版权归各自权利方所有，仅供学习与开发备份使用。
+- 个别文件（如 `cpu/*/tools/*_config_tool/conf/source/tone/wtgv2_decode.exe`）因本地杀毒软件隔离而缺失，可在需要时从原始环境恢复。
+- 若涉及公司产品资料（如 `debug_tools/schematic/`），请自行确认公开授权。
