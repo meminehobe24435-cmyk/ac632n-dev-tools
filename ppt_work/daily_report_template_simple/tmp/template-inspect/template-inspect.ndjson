@@ -1,0 +1,6 @@
+{"kind":"slide","id":"sl/2x4nap4r","slide":1,"title":"上周已完成任务","textShapes":2}
+{"kind":"textbox","id":"sh/cvixczed","slide":1,"name":"标题 1","placeholder":"title","text":"上周已完成任务","textPreview":"上周已完成任务","textChars":7,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":1,"name":"内容占位符 2","text":"对武汉大学i2nav项目的FIO（IMU+雷达点云）算法进行了复现评估\n完成了IMU误差标定的程序设计。\nhttps://wit-motion.yuque.com/sd8v4v/project_doc/hck7y1g6kxqik4sr ","textPreview":"对武汉大学i2nav项目的FIO（IMU+雷达点云）算法进行了复现评估 | 完成了IMU误差标定的程序设计。 | https://wit-motion.yuque.com/sd8v4v/project_doc/hck7y1g6kxqik4sr","textChars":118,"textLines":3,"bbox":[0,0,0,0]}
+{"kind":"slide","id":"sl/pg3ex0nu","slide":2,"title":"本周任务","textShapes":2}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":2,"name":"标题 1","placeholder":"title","text":"本周任务","textPreview":"本周任务","textChars":4,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":2,"name":"内容占位符 2","text":"通过总部的转台正式完成IXZ三轴光纤以及维特自制的光纤的标定\n标定完成后与钟工一齐进行IXZ三轴光纤与GNSS模块的组合导航设计\n与莫工一起进行华测设备的测试与研究。","textPreview":"通过总部的转台正式完成IXZ三轴光纤以及维特自制的光纤的标定 | 标定完成后与钟工一齐进行IXZ三轴光纤与GNSS模块的组合导航设计 | 与莫工一起进行华测设备的测试与研究。","textChars":83,"textLines":3,"bbox":[0,0,0,0]}

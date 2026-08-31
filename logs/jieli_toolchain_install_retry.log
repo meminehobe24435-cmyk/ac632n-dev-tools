@@ -1,0 +1,44 @@
+﻿2026-07-10 15:42:39.082   Log opened. (Time zone: UTC+08:00)
+2026-07-10 15:42:39.083   Setup version: Inno Setup version 5.6.1 (u)
+2026-07-10 15:42:39.083   Original Setup EXE: D:\23178\JL\tools\installers\jieli-windows-toolchains-latest.exe
+2026-07-10 15:42:39.083   Setup command line: /SL5="$506DA,52383144,121344,D:\23178\JL\tools\installers\jieli-windows-toolchains-latest.exe" /SPAWNWND=$30888 /NOTIFYWND=$30848 /SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /CURRENTUSER /DIR=D:\23178\JL\tools\JieliToolchain /LOG=D:\23178\JL\logs\jieli_toolchain_install_retry.log
+2026-07-10 15:42:39.083   Windows version: 10.0.26200  (NT platform: Yes)
+2026-07-10 15:42:39.083   64-bit Windows: Yes
+2026-07-10 15:42:39.083   Processor architecture: x64
+2026-07-10 15:42:39.083   User privileges: Administrative
+2026-07-10 15:42:39.088   64-bit install mode: No
+2026-07-10 15:42:39.094   Created temporary directory: C:\Users\23178\AppData\Local\Temp\is-OFU1L.tmp
+2026-07-10 15:42:39.101   -- DLL function import --
+2026-07-10 15:42:39.101   Function name: IsModuleLoaded
+2026-07-10 15:42:39.101   DLL name: files:psvince.dll
+2026-07-10 15:42:39.101   Extracting temporary file: C:\Users\23178\AppData\Local\Temp\is-OFU1L.tmp\psvince.dll
+2026-07-10 15:42:39.102   Dest DLL name: C:\Users\23178\AppData\Local\Temp\is-OFU1L.tmp\psvince.dll
+2026-07-10 15:42:39.102   Importing the DLL function.
+2026-07-10 15:42:39.102   Successfully imported the DLL function. Delay loaded? No
+2026-07-10 15:42:39.102   -- DLL function import --
+2026-07-10 15:42:39.102   Function name: IsModuleLoaded2
+2026-07-10 15:42:39.102   DLL name: files:psvince.dll
+2026-07-10 15:42:39.102   Dest DLL name: C:\Users\23178\AppData\Local\Temp\is-OFU1L.tmp\psvince.dll
+2026-07-10 15:42:39.102   Importing the DLL function.
+2026-07-10 15:42:39.102   Successfully imported the DLL function. Delay loaded? No
+2026-07-10 15:42:39.102   Message box (OK):
+                          本安装只对当前用户有效、请确保已经打开并关闭过CodeBlocks（见说明书），否则安装可能失败
+2026-07-10 15:42:40.391   User chose OK.
+2026-07-10 15:42:40.391   Message box (OK):
+                          检测到CodeBlocks未打开过，现在打开CodeBlocks，待CodeBlocks打开后请正常关闭CodeBlocks
+2026-07-10 15:42:41.335   User chose OK.
+2026-07-10 15:42:41.391   Message box (OK):
+                          请确保已经关闭CodeBlocks（见说明书），否则安装可能失败
+2026-07-10 15:42:41.930   User chose OK.
+2026-07-10 15:42:41.949   Message box (OK):
+                          请确保已经关闭CodeBlocks（见说明书），否则安装可能失败
+2026-07-10 15:42:42.495   User chose OK.
+2026-07-10 15:42:42.517   Message box (OK):
+                          请确保已经关闭CodeBlocks（见说明书），否则安装可能失败
+2026-07-10 15:42:57.906   User chose OK.
+2026-07-10 15:42:57.923   Message box (OK):
+                          请确保已经关闭CodeBlocks（见说明书），否则安装可能失败
+2026-07-10 15:42:58.846   User chose OK.
+2026-07-10 15:42:58.866   Message box (OK):
+                          请确保已经关闭CodeBlocks（见说明书），否则安装可能失败
+2026-07-10 15:43:13.476   User chose OK.

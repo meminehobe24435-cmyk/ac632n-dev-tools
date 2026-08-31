@@ -1,0 +1,108 @@
+{
+  "sourcePptx": "D:\\23178\\JL\\ppt_work\\daily_report_template_simple\\tmp\\source-template.pptx",
+  "workspace": "D:\\23178\\JL\\ppt_work\\daily_report_template_simple\\tmp",
+  "outDir": "D:\\23178\\JL\\ppt_work\\daily_report_template_simple\\tmp\\template-inspect",
+  "generatedAt": "2026-07-13T11:21:35.264Z",
+  "slideCount": 2,
+  "slideArtifacts": [
+    {
+      "slide": 1,
+      "previewPath": "D:\\23178\\JL\\ppt_work\\daily_report_template_simple\\tmp\\template-inspect\\source-slides\\source-slide-01.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-01.png",
+      "layoutPath": "D:\\23178\\JL\\ppt_work\\daily_report_template_simple\\tmp\\template-inspect\\layouts\\source-slide-01.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-01.layout.json"
+    },
+    {
+      "slide": 2,
+      "previewPath": "D:\\23178\\JL\\ppt_work\\daily_report_template_simple\\tmp\\template-inspect\\source-slides\\source-slide-02.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-02.png",
+      "layoutPath": "D:\\23178\\JL\\ppt_work\\daily_report_template_simple\\tmp\\template-inspect\\layouts\\source-slide-02.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-02.layout.json"
+    }
+  ],
+  "inspectPath": "D:\\23178\\JL\\ppt_work\\daily_report_template_simple\\tmp\\template-inspect\\template-inspect.ndjson",
+  "inspectRelativePath": "template-inspect/template-inspect.ndjson",
+  "inspectTruncated": false,
+  "inspectMetadata": {
+    "revision": "o7om78",
+    "target": {
+      "id": "pr/u74jm5"
+    },
+    "kind": {
+      "requested": "slide,textbox,shape,image,table,chart",
+      "tokens": [
+        "slide",
+        "textbox",
+        "shape",
+        "image",
+        "table",
+        "chart"
+      ]
+    },
+    "include": {
+      "tokens": []
+    },
+    "exclude": {
+      "tokens": []
+    },
+    "notices": []
+  },
+  "extractedMedia": [],
+  "fonts": [
+    "+mj-cs",
+    "+mj-ea",
+    "+mj-lt",
+    "+mn-cs",
+    "+mn-ea",
+    "+mn-lt",
+    "Angsana New",
+    "Arial",
+    "Cordia New",
+    "DaunPenh",
+    "DokChampa",
+    "Ebrima",
+    "Estrangelo Edessa",
+    "Euphemia",
+    "Gautami",
+    "Iskoola Pota",
+    "Javanese Text",
+    "Kalinga",
+    "Kartika",
+    "Latha",
+    "Leelawadee UI",
+    "MV Boli",
+    "Mangal",
+    "Microsoft Himalaya",
+    "Microsoft JhengHei",
+    "Microsoft New Tai Lue",
+    "Microsoft Tai Le",
+    "Microsoft Uighur",
+    "Microsoft Yi Baiti",
+    "Mongolian Baiti",
+    "MoolBoran",
+    "Myanmar Text",
+    "Nirmala UI",
+    "Nyala",
+    "Phagspa",
+    "Plantagenet Cherokee",
+    "Raavi",
+    "Segoe UI",
+    "Shruti",
+    "Sylfaen",
+    "Times New Roman",
+    "Tunga",
+    "Vrinda",
+    "新細明體",
+    "游ゴシック",
+    "游ゴシック Light",
+    "等线",
+    "等线 Light",
+    "맑은 고딕"
+  ],
+  "packageParts": {
+    "mediaCount": 0,
+    "slideXmlCount": 2,
+    "chartCount": 0,
+    "tableSlideCount": 0
+  }
+}

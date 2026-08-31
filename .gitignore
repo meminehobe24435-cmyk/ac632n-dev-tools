@@ -1,0 +1,20 @@
+# ---- 杰理官方 SDK 与固件工程副本（体积大，版权归原厂，不入库）----
+sdk/
+work/
+
+# ---- 工具链安装包与 IDE ----
+tools/
+CodeBlocks/
+
+# ---- 本地依赖与缓存 ----
+python_pkgs/
+__pycache__/
+*.pyc
+.idea/
+node_modules/
+
+# ---- PyInstaller 中间构建产物（可用 spec 重新生成）----
+build_uart_gui/JieLi_UART_Print_Receiver/
+
+# ---- 其他大体积/临时目录 ----
+screenshots/

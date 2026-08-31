@@ -1,0 +1,37 @@
+﻿2026-07-10 15:40:26.892   Log opened. (Time zone: UTC+08:00)
+2026-07-10 15:40:26.892   Setup version: Inno Setup version 5.6.1 (u)
+2026-07-10 15:40:26.892   Original Setup EXE: D:\23178\JL\tools\installers\jieli-windows-toolchains-latest.exe
+2026-07-10 15:40:26.892   Setup command line: /SL5="$200C32,52383144,121344,D:\23178\JL\tools\installers\jieli-windows-toolchains-latest.exe" /SPAWNWND=$F0C98 /NOTIFYWND=$1C0EA2 /SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /CURRENTUSER /DIR=D:\23178\JL\tools\JieliToolchain /LOG=D:\23178\JL\logs\jieli_toolchain_install.log
+2026-07-10 15:40:26.892   Windows version: 10.0.26200  (NT platform: Yes)
+2026-07-10 15:40:26.892   64-bit Windows: Yes
+2026-07-10 15:40:26.892   Processor architecture: x64
+2026-07-10 15:40:26.892   User privileges: Administrative
+2026-07-10 15:40:26.897   64-bit install mode: No
+2026-07-10 15:40:26.902   Created temporary directory: C:\Users\23178\AppData\Local\Temp\is-SJ490.tmp
+2026-07-10 15:40:26.911   -- DLL function import --
+2026-07-10 15:40:26.911   Function name: IsModuleLoaded
+2026-07-10 15:40:26.911   DLL name: files:psvince.dll
+2026-07-10 15:40:26.911   Extracting temporary file: C:\Users\23178\AppData\Local\Temp\is-SJ490.tmp\psvince.dll
+2026-07-10 15:40:26.911   Dest DLL name: C:\Users\23178\AppData\Local\Temp\is-SJ490.tmp\psvince.dll
+2026-07-10 15:40:26.911   Importing the DLL function.
+2026-07-10 15:40:26.911   Successfully imported the DLL function. Delay loaded? No
+2026-07-10 15:40:26.911   -- DLL function import --
+2026-07-10 15:40:26.911   Function name: IsModuleLoaded2
+2026-07-10 15:40:26.911   DLL name: files:psvince.dll
+2026-07-10 15:40:26.911   Dest DLL name: C:\Users\23178\AppData\Local\Temp\is-SJ490.tmp\psvince.dll
+2026-07-10 15:40:26.911   Importing the DLL function.
+2026-07-10 15:40:26.911   Successfully imported the DLL function. Delay loaded? No
+2026-07-10 15:40:26.911   Message box (OK):
+                          本安装只对当前用户有效、请确保已经打开并关闭过CodeBlocks（见说明书），否则安装可能失败
+2026-07-10 15:42:09.137   User chose OK.
+2026-07-10 15:42:09.138   Message box (OK):
+                          检测到CodeBlocks未打开过，现在打开CodeBlocks，待CodeBlocks打开后请正常关闭CodeBlocks
+2026-07-10 15:42:10.400   User chose OK.
+2026-07-10 15:42:10.424   InitializeSetup raised an exception (fatal).
+2026-07-10 15:42:10.424   Exception message:
+2026-07-10 15:42:10.424   Defaulting to OK for suppressed message box (OK):
+                          Runtime Error (at 36:1268):
+                          
+                          Internal error: CallSpawnServer: Unexpected response: $0.
+2026-07-10 15:42:10.424   Deinitializing Setup.
+2026-07-10 15:42:10.428   Log closed.
