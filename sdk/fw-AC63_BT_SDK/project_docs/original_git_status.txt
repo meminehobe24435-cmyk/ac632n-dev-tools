@@ -1,0 +1,37 @@
+﻿ M apps/spp_and_le/app_main.c
+ M apps/spp_and_le/board/bd19/board_ac6321a_demo.c
+ M apps/spp_and_le/board/bd19/board_ac6321a_demo_cfg.h
+ M apps/spp_and_le/board/bd19/board_config.h
+ M apps/spp_and_le/examples/trans_data/ble_trans.c
+ M apps/spp_and_le/modules/user_cfg.c
+ M cpu/bd19/tools/AC632N_config_tool/conf/output/cfg_tool_state_complete.lua
+ M cpu/bd19/tools/AC632N_config_tool/conf/output/default/default_cfg.lua
+ M cpu/bd19/tools/AC632N_config_tool/conf/output/default_cfg.lua
+ M cpu/bd19/tools/cfg_tool.bin
+ M cpu/bd19/tools/download.bat
+ D cpu/br23/tools/AC695X_config_tool/conf/source/tone/wtgv2_decode.exe
+ D cpu/br25/tools/AC696X_config_tool/conf/source/tone/wtgv2_decode.exe
+?? apps/spp_and_le/board/bd19/AC632N_spp_and_le.layout
+?? cpu/bd19/sdk_used_list.used
+?? cpu/bd19/tools/AC632N_config_tool/conf/output/cfg_tool_state_complete.lua.bak_before_wtyi
+?? cpu/bd19/tools/AC632N_config_tool/conf/output/default/default_cfg.lua.bak_before_wtyi
+?? cpu/bd19/tools/AC632N_config_tool/conf/output/default_cfg.lua.bak_before_wtyi
+?? cpu/bd19/tools/app.bin
+?? cpu/bd19/tools/cfg_tool.bin.bak_before_wtyi
+?? cpu/bd19/tools/data_code.bin
+?? cpu/bd19/tools/download/data_trans/app.bin
+?? cpu/bd19/tools/download/data_trans/bd19loader.bin
+?? cpu/bd19/tools/download/data_trans/cfg_tool.bin
+?? cpu/bd19/tools/download/data_trans/cfg_tool.bin.bak_before_wtyi
+?? cpu/bd19/tools/download/data_trans/flash_params.bin
+?? cpu/bd19/tools/download/data_trans/jl_isd.bin
+?? cpu/bd19/tools/download/data_trans/jl_isd.fw
+?? cpu/bd19/tools/download/data_trans/p11_code.bin
+?? cpu/bd19/tools/download/data_trans/script.ver
+?? cpu/bd19/tools/download/data_trans/tone.cfg
+?? cpu/bd19/tools/isd_config.ini
+?? cpu/bd19/tools/sdk.elf.objs.txt
+?? cpu/bd19/tools/sdk.elf.resolution.txt
+?? cpu/bd19/tools/sdk.lst
+?? cpu/bd19/tools/symbol_tbl.txt
+?? project_docs/
