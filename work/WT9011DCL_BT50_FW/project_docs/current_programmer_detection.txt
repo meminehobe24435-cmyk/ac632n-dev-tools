@@ -1,0 +1,1636 @@
+﻿=== Get-PnpDevice USB/Ports/HID/Unknown ===
+
+Status Class                 FriendlyName                                               InstanceId                                                                                                         
+------ -----                 ------------                                               ----------                                                                                                         
+OK                           COM6                                                       BTHENUM\{00007033-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\9&278E2569&3&010203042996_C00000000                   
+OK                           COM7                                                       BTHENUM\{00007034-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\9&278E2569&3&010203042996_C00000000                   
+OK                           JL_SPP                                                     BTHENUM\{8486EB04-D102-11E1-9B23-00025B00A5A5}_VID&000105D6_PID&000A\9&278E2569&3&44FB763DFFD5_C00000000           
+OK     AudioProcessingObject Fortemedia SAMSoft Effects Component                       SWD\DRIVERENUM\{86F65302-34A5-441C-8E16-C05C2D9E6151}#FMAPO&6&3061BFCB&2                                           
+OK     AudioProcessingObject Nahimic Nh4 Audio Effects Component                        SWD\DRIVERENUM\{741A2100-1023-11E9-B56E-0800200C9A66}#AVOLUTE_NH4APO&6&3061BFCB&2                                  
+OK     AudioProcessingObject Realtek Audio Effects Component                            SWD\DRIVERENUM\{C3A63EDD-2D27-4B66-B155-5E94B43D926A}#REALTEKAPO&6&3061BFCB&2                                      
+OK     Battery               Microsoft ACPI-Compliant Control Method Battery            ACPI\PNP0C0A\1                                                                                                     
+OK     Bluetooth             Bluetooth Device (RFCOMM Protocol TDI)                     BTH\MS_RFCOMM\8&193AC876&1&0                                                                                       
+OK     DiskDrive             BD19 UBOOT1.00 USB Device                                  USBSTOR\DISK&VEN_BD19&PROD_UBOOT1.00&REV_1.00\7&6A1CA24&0                                                          
+OK     DiskDrive             Great Wall GT35 2TB                                        SCSI\DISK&VEN_NVME&PROD_GREAT_WALL_GT35\5&28D968A&0&000000                                                         
+OK     DiskDrive             Microsoft Storage Space Device                             STORAGE\DISK\{26FB08BA-03FB-484D-8E0C-75D01740AE88}                                                                
+OK     DiskDrive             SKHynix_HFS001TEJ9X115N                                    SCSI\DISK&VEN_NVME&PROD_SKHYNIX_HFS001TE\5&2B9E69C&0&000000                                                        
+OK     HIDClass              Bluetooth Low Energy GATT compliant HID device             BTHLEDEVICE\{00001812-0000-1000-8000-00805F9B34FB}_DEV_VID&023554_PID&FA07_REV&6701_EFDCC108324B\A&290DFD43&0&0013 
+OK     HIDClass              Bluetooth XINPUT compatible input device                   BTHENUM\{00001124-0000-1000-8000-00805F9B34FB}_VID&0002045E_PID&02E0\9&278E2569&3&A5B4E7FBA96D_C00000000           
+OK     HIDClass              gvinput Device                                             ROOT\HIDCLASS\0000                                                                                                 
+OK     HIDClass              HID-compliant consumer control device                      HID\VID_048D&PID_C103&COL03\8&32F1783D&0&0002                                                                      
+OK     HIDClass              HID-compliant consumer control device                      HID\VID_1532&PID_0083&MI_00&COL03\A&45AC70&0&0000                                                                  
+OK     HIDClass              HID-compliant consumer control device                      HID\VID_3554&PID_FA09&MI_01&COL02\A&8EC7C48&0&0001                                                                 
+OK     HIDClass              HID-compliant consumer control device                      HID\VID_1532&PID_0083&MI_01&COL03\9&84A8B49&0&0002                                                                 
+OK     HIDClass              HID-compliant consumer control device                      RZVIRTUAL\VID_1532&PID_0083&MI_00&COL03\9&84A8B49&0&01                                                             
+OK     HIDClass              HID-compliant device                                       HID\VID_1532&PID_0083&MI_01&COL05\9&84A8B49&0&0004                                                                 
+OK     HIDClass              HID-compliant device                                       HID\VID_1532&PID_0083&MI_01&COL08\9&84A8B49&0&0007                                                                 
+OK     HIDClass              HID-compliant device                                       HID\VID_1532&PID_0083&MI_01&COL06\9&84A8B49&0&0005                                                                 
+OK     HIDClass              HID-compliant device                                       HID\VID_1532&PID_0083&MI_01&COL07\9&84A8B49&0&0006                                                                 
+OK     HIDClass              HID-compliant system controller                            HID\VID_3554&PID_FA09&MI_01&COL03\A&8EC7C48&0&0002                                                                 
+OK     HIDClass              HID-compliant system controller                            HID\VID_1532&PID_0083&MI_01&COL04\9&84A8B49&0&0003                                                                 
+OK     HIDClass              HID-compliant touch pad                                    HID\ELAN06FA&COL03\4&129186E&0&0002                                                                                
+OK     HIDClass              HID-compliant vendor-defined device                        HID\VID_3554&PID_FA09&MI_01&COL06\A&8EC7C48&0&0005                                                                 
+OK     HIDClass              HID-compliant vendor-defined device                        HID\TENCENTMYAPPSHIDBUS&COL04\1&1F851A3D&1&0003                                                                    
+OK     HIDClass              HID-compliant vendor-defined device                        HID\GVINPUT&COL04\1&2D595CA7&1&0003                                                                                
+OK     HIDClass              HID-compliant vendor-defined device                        HID\TENCENTMYAPPSHIDBUS&COL07\1&1F851A3D&1&0006                                                                    
+OK     HIDClass              HID-compliant vendor-defined device                        HID\GVINPUT&COL05\1&2D595CA7&1&0004                                                                                
+OK     HIDClass              HID-compliant vendor-defined device                        HID\ELAN06FA&COL02\4&129186E&0&0001                                                                                
+OK     HIDClass              HID-compliant vendor-defined device                        HID\TENCENTMYAPPSHIDBUS&COL05\1&1F851A3D&1&0004                                                                    
+OK     HIDClass              HID-compliant vendor-defined device                        HID\VID_3554&PID_FA09&MI_01&COL01\A&8EC7C48&0&0000                                                                 
+OK     HIDClass              HID-compliant vendor-defined device                        HID\VID_048D&PID_C103&COL01\8&32F1783D&0&0000                                                                      
+OK     HIDClass              HID-compliant vendor-defined device                        HID\TENCENTMYAPPSHIDBUS&COL06\1&1F851A3D&1&0005                                                                    
+OK     HIDClass              HID-compliant wireless radio controls                      HID\VID_048D&PID_C103&COL04\8&32F1783D&0&0003                                                                      
+OK     HIDClass              I2C HID Device                                             ACPI\ELAN06FA\3&62D7E73&1                                                                                          
+OK     HIDClass              Microsoft Input Configuration Device                       HID\ELAN06FA&COL04\4&129186E&0&0003                                                                                
+OK     HIDClass              Razer Basilisk X HyperSpeed                                USB\VID_1532&PID_0083&MI_01\8&35E12BB7&1&0001                                                                      
+OK     HIDClass              Razer Basilisk X HyperSpeed                                USB\VID_1532&PID_0083&MI_02\8&35E12BB7&1&0002                                                                      
+OK     HIDClass              Razer Basilisk X HyperSpeed                                USB\VID_1532&PID_0083&MI_00\8&35E12BB7&1&0000                                                                      
+OK     HIDClass              USB Input Device                                           USB\VID_048D&PID_C103\7&1B8A7FB1&0&2                                                                               
+OK     HIDClass              USB Input Device                                           USB\VID_3554&PID_FA09&MI_00\9&2F080E8&0&0000                                                                       
+OK     HIDClass              USB Input Device                                           USB\VID_3554&PID_FA09&MI_01\9&2F080E8&0&0001                                                                       
+OK     Keyboard              HID Keyboard Device                                        HID\GVINPUT&COL03\1&2D595CA7&1&0002                                                                                
+OK     Keyboard              HID Keyboard Device                                        HID\VID_3554&PID_FA09&MI_01&COL04\A&8EC7C48&0&0003                                                                 
+OK     Keyboard              HID Keyboard Device                                        HID\VID_1532&PID_0083&MI_02\9&210DD8E0&0&0000                                                                      
+OK     Keyboard              HID Keyboard Device                                        HID\TENCENTMYAPPSHIDBUS&COL03\1&1F851A3D&1&0002                                                                    
+OK     Keyboard              HID Keyboard Device                                        HID\VID_048D&PID_C103&COL02\8&32F1783D&0&0001                                                                      
+OK     Keyboard              HID Keyboard Device                                        HID\VID_3554&PID_FA09&MI_00\A&1C1C9886&0&0000                                                                      
+OK     MEDIA                 Microsoft Streaming Service Proxy                          SW\{96E080C7-143C-11D1-B40F-00A0C9223196}\{3C0D501A-140B-11D1-B40F-00A0C9223196}                                   
+OK     MEDIA                 Nahimic Easy Surround device                               SWD\DRIVERENUM\{741A2100-1023-11E9-B56E-0800200C9A66}#NAHIMIC_BTLINK&6&3061BFCB&2                                  
+OK     MEDIA                 Nahimic mirroring device                                   SWD\DRIVERENUM\{741A2100-1023-11E9-B56E-0800200C9A66}#NAHIMIC_MIRRORING&6&3061BFCB&2                               
+OK     MEDIA                 Nahimic VAD                                                SWD\DRIVERENUM\{741A2100-1023-11E9-B56E-0800200C9A66}#NAHIMIC_XVAD&6&3061BFCB&2                                    
+OK     MEDIA                 NVIDIA High Definition Audio                               HDAUDIO\FUNC_01&VEN_10DE&DEV_00A7&SUBSYS_FFFFFFFF&REV_1001\5&3568B81E&0&0001                                       
+OK     MEDIA                 NVIDIA Virtual Audio Device (Wave Extensible) (WDM)        ROOT\UNNAMED_DEVICE\0000                                                                                           
+OK     MEDIA                 Realtek(R) Audio                                           HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38A5&REV_1000\5&102B96C0&0&0001                                       
+OK     MEDIA                 ROSE Ceramics X                                            BTHENUM\{0000110B-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\9&278E2569&3&010203042996_C00000000                   
+OK     MEDIA                 ROSE Ceramics X Hands-Free                                 BTHHFENUM\BTHHFPAUDIO\A&677D8D6&0&97                                                                               
+OK     MEDIA                 Steam Streaming Microphone                                 ROOT\STEAMSTREAMINGMICROPHONE\0000                                                                                 
+OK     MEDIA                 Steam Streaming Speakers                                   ROOT\STEAMSTREAMINGSPEAKERS\0000                                                                                   
+OK     MEDIA                 vivo TWS Air3 Pro                                          BTHENUM\{0000110B-0000-1000-8000-00805F9B34FB}_VID&000105D6_PID&000A\9&278E2569&3&44FB763DFFD5_C00000000           
+OK     MEDIA                 vivo TWS Air3 Pro Hands-Free                               BTHHFENUM\BTHHFPAUDIO\A&8B841D9&0&97                                                                               
+OK     MEDIA                 滴滴滴 A2DP SNK                                               BTHENUM\{0000110A-0000-1000-8000-00805F9B34FB}_VID&000100E0_PID&0000\9&278E2569&3&7834FDB5DD74_C00000000           
+OK     MEDIA                 滴滴滴 Hands-Free HF Audio                                    BTHHFENUM\BTHHFPAUDIO\A&C651B70&0&97                                                                               
+OK     Mouse                 HID-compliant mouse                                        HID\GVINPUT&COL01\1&2D595CA7&1&0000                                                                                
+OK     Mouse                 HID-compliant mouse                                        HID\VID_1532&PID_0083&MI_01&COL02\9&84A8B49&0&0001                                                                 
+OK     Mouse                 HID-compliant mouse                                        HID\GVINPUT&COL02\1&2D595CA7&1&0001                                                                                
+OK     Mouse                 HID-compliant mouse                                        HID\TENCENTMYAPPSHIDBUS&COL01\1&1F851A3D&1&0000                                                                    
+OK     Mouse                 HID-compliant mouse                                        HID\ELAN06FA&COL01\4&129186E&0&0000                                                                                
+OK     Mouse                 HID-compliant mouse                                        HID\VID_3554&PID_FA09&MI_01&COL05\A&8EC7C48&0&0004                                                                 
+OK     Mouse                 HID-compliant mouse                                        HID\TENCENTMYAPPSHIDBUS&COL02\1&1F851A3D&1&0001                                                                    
+OK     MyAppsVirtualBus      MyAppsUsbController Device                                 ROOT\MYAPPSVIRTUALBUS\0001                                                                                         
+OK     MyAppsVirtualBus      TMyAppsHidBus Device                                       ROOT\MYAPPSVIRTUALBUS\0000                                                                                         
+OK     Ports                 蓝牙链接上的标准串行 (COM4)                                          BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\9&2902058&2&010203042996_C00000000                    
+OK     Ports                 蓝牙链接上的标准串行 (COM6)                                          BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\9&2902058&2&000000000000_00000005                     
+OK     Ports                 蓝牙链接上的标准串行 (COM7)                                          BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_VID&000105D6_PID&000A\9&2902058&2&44FB763DFFD5_C00000000            
+OK     Ports                 蓝牙链接上的标准串行 (COM90)                                         BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\9&2902058&2&000000000000_00000002                     
+OK     SoftwareComponent     Generic software component                                 SWD\DRIVERENUM\{D5CD8549-8BC8-428B-B02B-D60E24966A37}#TOBIIMIDDLEWARECOMPONENT&8&13B24C8B&2                        
+OK     System                Composite Bus Enumerator                                   ROOT\COMPOSITEBUS\0000                                                                                             
+OK     System                Lenovo ACPI-Compliant Virtual Power Controller             ACPI\VPC2004\0                                                                                                     
+OK     System                Microsoft ACPI-Compliant Embedded Controller               ACPI\PNP0C09\1                                                                                                     
+OK     System                Microsoft ACPI-Compliant System                            ACPI_HAL\PNP0C08\0                                                                                                 
+OK     System                Microsoft Hyper-V 虚拟磁盘服务器                                  ROOT\STORVSP\0000                                                                                                  
+OK     System                Microsoft UEFI-Compliant System                            ACPI_HAL\UEFI\0                                                                                                    
+OK     System                OrayUSBVHCI                                                ROOT\ORAYUSBVHCI\0000                                                                                              
+OK     System                PCI Express Root Complex                                   ACPI\PNP0A08\0                                                                                                     
+OK     USB                   AMD USB 2.0 eXtensible Host Controller - 1.20 (Microsoft)  PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&REV_00\4&1CEC15E5&0&0043                                                     
+OK     USB                   AMD USB 3.10 eXtensible Host Controller - 1.20 (Microsoft) PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&REV_00\4&6C4AD28&0&0441                                                      
+OK     USB                   AMD USB 3.10 eXtensible Host Controller - 1.20 (Microsoft) PCI\VEN_1022&DEV_15B6&SUBSYS_382817AA&REV_00\4&6C4AD28&0&0341                                                      
+OK     USB                   Generic SuperSpeed USB Hub                                 USB\VID_0BDA&PID_0411\6&19A9457F&0&4                                                                               
+OK     USB                   Generic USB Hub                                            USB\VID_05E3&PID_0608\7&1CEC8A89&0&2                                                                               
+OK     USB                   Generic USB Hub                                            USB\VID_05E3&PID_0610\6&25C9985C&0&1                                                                               
+OK     USB                   Generic USB Hub                                            USB\VID_0BDA&PID_5411\6&19A9457F&0&2                                                                               
+OK     USB                   USB Composite Device                                       USB\VID_1532&PID_0083\7&1CEC8A89&0&3                                                                               
+OK     USB                   USB Composite Device                                       USB\VID_3554&PID_FA09\8&3162727A&2&2                                                                               
+OK     USB                   USB Composite Device                                       USB\VID_04F2&PID_B7B8\01.00.00                                                                                     
+OK     USB                   USB Mass Storage Device                                    USB\VID_4C4A&PID_3442\6&19A9457F&0&1                                                                               
+OK     USB                   USB Root Hub (USB 3.0)                                     USB\ROOT_HUB30\5&16B0E953&0&0                                                                                      
+OK     USB                   USB Root Hub (USB 3.0)                                     USB\ROOT_HUB30\5&E42E7FD&0&0                                                                                       
+OK     USB                   USB Root Hub (USB 3.0)                                     USB\ROOT_HUB30\5&3730CE27&0&0                                                                                      
+OK     WPD                   F:\                                                        SWD\WPDBUSENUM\_??_USBSTOR#DISK&VEN_BD19&PROD_UBOOT1.00&REV_1.00#7&6A1CA24&0#{53F56307-B6BF-11D0-94F2-00A0C91EFB8B}
+
+
+
+=== Win32_PnPEntity selected ===
+
+
+Name                   : AMD USB 2.0 eXtensible Host Controller - 1.20 (Microsoft)
+PNPDeviceID            : PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&REV_00\4&1CEC15E5&0&0043
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : AMD USB 3.10 eXtensible Host Controller - 1.20 (Microsoft)
+PNPDeviceID            : PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&REV_00\4&6C4AD28&0&0441
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : AMD USB 3.10 eXtensible Host Controller - 1.20 (Microsoft)
+PNPDeviceID            : PCI\VEN_1022&DEV_15B6&SUBSYS_382817AA&REV_00\4&6C4AD28&0&0341
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : BD19 UBOOT1.00 USB Device
+PNPDeviceID            : USBSTOR\DISK&VEN_BD19&PROD_UBOOT1.00&REV_1.00\7&6A1CA24&0
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : Bluetooth Device (RFCOMM Protocol TDI)
+PNPDeviceID            : BTH\MS_RFCOMM\8&193AC876&1&0
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : Bluetooth Low Energy GATT compliant HID device
+PNPDeviceID            : BTHLEDEVICE\{00001812-0000-1000-8000-00805F9B34FB}_DEV_VID&023554_PID&FA07_REV&6701_EFDCC108324B\A&290DFD43&0&0013
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : Bluetooth XINPUT compatible input device
+PNPDeviceID            : BTHENUM\{00001124-0000-1000-8000-00805F9B34FB}_VID&0002045E_PID&02E0\9&278E2569&3&A5B4E7FBA96D_C00000000
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : COM6
+PNPDeviceID            : BTHENUM\{00007033-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\9&278E2569&3&010203042996_C00000000
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : COM7
+PNPDeviceID            : BTHENUM\{00007034-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\9&278E2569&3&010203042996_C00000000
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : Composite Bus Enumerator
+PNPDeviceID            : ROOT\COMPOSITEBUS\0000
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : Fortemedia SAMSoft Effects Component
+PNPDeviceID            : SWD\DRIVERENUM\{86F65302-34A5-441C-8E16-C05C2D9E6151}#FMAPO&6&3061BFCB&2
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : Generic software component
+PNPDeviceID            : SWD\DRIVERENUM\{D5CD8549-8BC8-428B-B02B-D60E24966A37}#TOBIIMIDDLEWARECOMPONENT&8&13B24C8B&2
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : Generic SuperSpeed USB Hub
+PNPDeviceID            : USB\VID_0BDA&PID_0411\6&19A9457F&0&4
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : Generic USB Hub
+PNPDeviceID            : USB\VID_05E3&PID_0610\6&25C9985C&0&1
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : Generic USB Hub
+PNPDeviceID            : USB\VID_05E3&PID_0608\7&1CEC8A89&0&2
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : Generic USB Hub
+PNPDeviceID            : USB\VID_0BDA&PID_5411\6&19A9457F&0&2
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID Keyboard Device
+PNPDeviceID            : HID\VID_048D&PID_C103&COL02\8&32F1783D&0&0001
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID Keyboard Device
+PNPDeviceID            : HID\VID_3554&PID_FA09&MI_00\A&1C1C9886&0&0000
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID Keyboard Device
+PNPDeviceID            : HID\GVINPUT&COL03\1&2D595CA7&1&0002
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID Keyboard Device
+PNPDeviceID            : HID\VID_1532&PID_0083&MI_02\9&210DD8E0&0&0000
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID Keyboard Device
+PNPDeviceID            : HID\VID_3554&PID_FA09&MI_01&COL04\A&8EC7C48&0&0003
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID Keyboard Device
+PNPDeviceID            : HID\TENCENTMYAPPSHIDBUS&COL03\1&1F851A3D&1&0002
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant consumer control device
+PNPDeviceID            : HID\VID_048D&PID_C103&COL03\8&32F1783D&0&0002
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant consumer control device
+PNPDeviceID            : HID\VID_1532&PID_0083&MI_01&COL03\9&84A8B49&0&0002
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant consumer control device
+PNPDeviceID            : RZVIRTUAL\VID_1532&PID_0083&MI_00&COL03\9&84A8B49&0&01
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant consumer control device
+PNPDeviceID            : HID\VID_3554&PID_FA09&MI_01&COL02\A&8EC7C48&0&0001
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant consumer control device
+PNPDeviceID            : HID\VID_1532&PID_0083&MI_00&COL03\A&45AC70&0&0000
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant device
+PNPDeviceID            : HID\VID_1532&PID_0083&MI_01&COL08\9&84A8B49&0&0007
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant device
+PNPDeviceID            : HID\VID_1532&PID_0083&MI_01&COL07\9&84A8B49&0&0006
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant device
+PNPDeviceID            : HID\VID_1532&PID_0083&MI_01&COL06\9&84A8B49&0&0005
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant device
+PNPDeviceID            : HID\VID_1532&PID_0083&MI_01&COL05\9&84A8B49&0&0004
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant mouse
+PNPDeviceID            : HID\VID_3554&PID_FA09&MI_01&COL05\A&8EC7C48&0&0004
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant mouse
+PNPDeviceID            : HID\VID_1532&PID_0083&MI_01&COL02\9&84A8B49&0&0001
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant mouse
+PNPDeviceID            : HID\ELAN06FA&COL01\4&129186E&0&0000
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant mouse
+PNPDeviceID            : HID\GVINPUT&COL01\1&2D595CA7&1&0000
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant mouse
+PNPDeviceID            : HID\TENCENTMYAPPSHIDBUS&COL02\1&1F851A3D&1&0001
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant mouse
+PNPDeviceID            : HID\TENCENTMYAPPSHIDBUS&COL01\1&1F851A3D&1&0000
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant mouse
+PNPDeviceID            : HID\GVINPUT&COL02\1&2D595CA7&1&0001
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant system controller
+PNPDeviceID            : HID\VID_3554&PID_FA09&MI_01&COL03\A&8EC7C48&0&0002
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant system controller
+PNPDeviceID            : HID\VID_1532&PID_0083&MI_01&COL04\9&84A8B49&0&0003
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant touch pad
+PNPDeviceID            : HID\ELAN06FA&COL03\4&129186E&0&0002
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant vendor-defined device
+PNPDeviceID            : HID\TENCENTMYAPPSHIDBUS&COL04\1&1F851A3D&1&0003
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant vendor-defined device
+PNPDeviceID            : HID\ELAN06FA&COL02\4&129186E&0&0001
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant vendor-defined device
+PNPDeviceID            : HID\GVINPUT&COL05\1&2D595CA7&1&0004
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant vendor-defined device
+PNPDeviceID            : HID\GVINPUT&COL04\1&2D595CA7&1&0003
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant vendor-defined device
+PNPDeviceID            : HID\VID_3554&PID_FA09&MI_01&COL01\A&8EC7C48&0&0000
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant vendor-defined device
+PNPDeviceID            : HID\VID_3554&PID_FA09&MI_01&COL06\A&8EC7C48&0&0005
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant vendor-defined device
+PNPDeviceID            : HID\TENCENTMYAPPSHIDBUS&COL07\1&1F851A3D&1&0006
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant vendor-defined device
+PNPDeviceID            : HID\TENCENTMYAPPSHIDBUS&COL06\1&1F851A3D&1&0005
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant vendor-defined device
+PNPDeviceID            : HID\VID_048D&PID_C103&COL01\8&32F1783D&0&0000
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant vendor-defined device
+PNPDeviceID            : HID\TENCENTMYAPPSHIDBUS&COL05\1&1F851A3D&1&0004
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : HID-compliant wireless radio controls
+PNPDeviceID            : HID\VID_048D&PID_C103&COL04\8&32F1783D&0&0003
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : I2C HID Device
+PNPDeviceID            : ACPI\ELAN06FA\3&62D7E73&1
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : JL_SPP
+PNPDeviceID            : BTHENUM\{8486EB04-D102-11E1-9B23-00025B00A5A5}_VID&000105D6_PID&000A\9&278E2569&3&44FB763DFFD5_C00000000
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : Lenovo ACPI-Compliant Virtual Power Controller
+PNPDeviceID            : ACPI\VPC2004\0
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : Microsoft ACPI-Compliant Control Method Battery
+PNPDeviceID            : ACPI\PNP0C0A\1
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : Microsoft ACPI-Compliant Embedded Controller
+PNPDeviceID            : ACPI\PNP0C09\1
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : Microsoft ACPI-Compliant System
+PNPDeviceID            : ACPI_HAL\PNP0C08\0
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : Microsoft Hyper-V 虚拟磁盘服务器
+PNPDeviceID            : ROOT\STORVSP\0000
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : Microsoft UEFI-Compliant System
+PNPDeviceID            : ACPI_HAL\UEFI\0
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : MyAppsUsbController Device
+PNPDeviceID            : ROOT\MYAPPSVIRTUALBUS\0001
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : Nahimic Nh4 Audio Effects Component
+PNPDeviceID            : SWD\DRIVERENUM\{741A2100-1023-11E9-B56E-0800200C9A66}#AVOLUTE_NH4APO&6&3061BFCB&2
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : OrayUSBVHCI
+PNPDeviceID            : ROOT\ORAYUSBVHCI\0000
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : PCI Express Root Complex
+PNPDeviceID            : ACPI\PNP0A08\0
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : Realtek Audio Effects Component
+PNPDeviceID            : SWD\DRIVERENUM\{C3A63EDD-2D27-4B66-B155-5E94B43D926A}#REALTEKAPO&6&3061BFCB&2
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : TMyAppsHidBus Device
+PNPDeviceID            : ROOT\MYAPPSVIRTUALBUS\0000
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : USB Composite Device
+PNPDeviceID            : USB\VID_3554&PID_FA09\8&3162727A&2&2
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : USB Composite Device
+PNPDeviceID            : USB\VID_1532&PID_0083\7&1CEC8A89&0&3
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : USB Composite Device
+PNPDeviceID            : USB\VID_04F2&PID_B7B8\01.00.00
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : USB Input Device
+PNPDeviceID            : USB\VID_3554&PID_FA09&MI_01\9&2F080E8&0&0001
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : USB Input Device
+PNPDeviceID            : USB\VID_048D&PID_C103\7&1B8A7FB1&0&2
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : USB Input Device
+PNPDeviceID            : USB\VID_3554&PID_FA09&MI_00\9&2F080E8&0&0000
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : USB Mass Storage Device
+PNPDeviceID            : USB\VID_4C4A&PID_3442\6&19A9457F&0&1
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : USB Root Hub (USB 3.0)
+PNPDeviceID            : USB\ROOT_HUB30\5&3730CE27&0&0
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : USB Root Hub (USB 3.0)
+PNPDeviceID            : USB\ROOT_HUB30\5&E42E7FD&0&0
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : USB Root Hub (USB 3.0)
+PNPDeviceID            : USB\ROOT_HUB30\5&16B0E953&0&0
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : 蓝牙链接上的标准串行 (COM4)
+PNPDeviceID            : BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\9&2902058&2&010203042996_C00000000
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : 蓝牙链接上的标准串行 (COM6)
+PNPDeviceID            : BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\9&2902058&2&000000000000_00000005
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : 蓝牙链接上的标准串行 (COM7)
+PNPDeviceID            : BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_VID&000105D6_PID&000A\9&2902058&2&44FB763DFFD5_C00000000
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+Name                   : 蓝牙链接上的标准串行 (COM90)
+PNPDeviceID            : BTHENUM\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\9&2902058&2&000000000000_00000002
+Status                 : OK
+ConfigManagerErrorCode : CM_PROB_NONE
+
+
+
+
+=== pnputil connected ===
+=== QUICK USB SUMMARY ===
+ 
+ S t a t u s   C l a s s                                   F r i e n d l y N a m e                                                                                               I n s t a n c e I d                                                                                                                                                                                                                  
+ - - - - - -   - - - - -                                   - - - - - - - - - - - -                                                                                               - - - - - - - - - -                                                                                                                                                                                                                  
+ O K                                                       C O M 6                                                                                                               B T H E N U M \ { 0 0 0 0 7 0 3 3 - 0 0 0 0 - 1 0 0 0 - 8 0 0 0 - 0 0 8 0 5 F 9 B 3 4 F B } _ L O C A L M F G & 0 0 5 D \ 9 & 2 7 8 E 2 5 6 9 & 3 & 0 1 0 2 0 3 0 4 2 9 9 6 _ C 0 0 0 0 0 0 0 0                                      
+ O K                                                       C O M 7                                                                                                               B T H E N U M \ { 0 0 0 0 7 0 3 4 - 0 0 0 0 - 1 0 0 0 - 8 0 0 0 - 0 0 8 0 5 F 9 B 3 4 F B } _ L O C A L M F G & 0 0 5 D \ 9 & 2 7 8 E 2 5 6 9 & 3 & 0 1 0 2 0 3 0 4 2 9 9 6 _ C 0 0 0 0 0 0 0 0                                      
+ O K                                                       J L _ S P P                                                                                                           B T H E N U M \ { 8 4 8 6 E B 0 4 - D 1 0 2 - 1 1 E 1 - 9 B 2 3 - 0 0 0 2 5 B 0 0 A 5 A 5 } _ V I D & 0 0 0 1 0 5 D 6 _ P I D & 0 0 0 A \ 9 & 2 7 8 E 2 5 6 9 & 3 & 4 4 F B 7 6 3 D F F D 5 _ C 0 0 0 0 0 0 0 0                      
+ O K           A u d i o P r o c e s s i n g O b j e c t   F o r t e m e d i a   S A M S o f t   E f f e c t s   C o m p o n e n t                                               S W D \ D R I V E R E N U M \ { 8 6 F 6 5 3 0 2 - 3 4 A 5 - 4 4 1 C - 8 E 1 6 - C 0 5 C 2 D 9 E 6 1 5 1 } # F M A P O & 6 & 3 0 6 1 B F C B & 2                                                                                      
+ O K           A u d i o P r o c e s s i n g O b j e c t   N a h i m i c   N h 4   A u d i o   E f f e c t s   C o m p o n e n t                                                 S W D \ D R I V E R E N U M \ { 7 4 1 A 2 1 0 0 - 1 0 2 3 - 1 1 E 9 - B 5 6 E - 0 8 0 0 2 0 0 C 9 A 6 6 } # A V O L U T E _ N H 4 A P O & 6 & 3 0 6 1 B F C B & 2                                                                    
+ O K           A u d i o P r o c e s s i n g O b j e c t   R e a l t e k   A u d i o   E f f e c t s   C o m p o n e n t                                                         S W D \ D R I V E R E N U M \ { C 3 A 6 3 E D D - 2 D 2 7 - 4 B 6 6 - B 1 5 5 - 5 E 9 4 B 4 3 D 9 2 6 A } # R E A L T E K A P O & 6 & 3 0 6 1 B F C B & 2                                                                            
+ O K           B a t t e r y                               M i c r o s o f t   A C P I - C o m p l i a n t   C o n t r o l   M e t h o d   B a t t e r y                         A C P I \ P N P 0 C 0 A \ 1                                                                                                                                                                                                          
+ O K           B l u e t o o t h                           B l u e t o o t h   D e v i c e   ( R F C O M M   P r o t o c o l   T D I )                                           B T H \ M S _ R F C O M M \ 8 & 1 9 3 A C 8 7 6 & 1 & 0                                                                                                                                                                              
+ O K           D i s k D r i v e                           B D 1 9   U B O O T 1 . 0 0   U S B   D e v i c e                                                                     U S B S T O R \ D I S K & V E N _ B D 1 9 & P R O D _ U B O O T 1 . 0 0 & R E V _ 1 . 0 0 \ 7 & 6 A 1 C A 2 4 & 0                                                                                                                    
+ O K           D i s k D r i v e                           G r e a t   W a l l   G T 3 5   2 T B                                                                                 S C S I \ D I S K & V E N _ N V M E & P R O D _ G R E A T _ W A L L _ G T 3 5 \ 5 & 2 8 D 9 6 8 A & 0 & 0 0 0 0 0 0                                                                                                                  
+ O K           D i s k D r i v e                           M i c r o s o f t   S t o r a g e   S p a c e   D e v i c e                                                           S T O R A G E \ D I S K \ { 2 6 F B 0 8 B A - 0 3 F B - 4 8 4 D - 8 E 0 C - 7 5 D 0 1 7 4 0 A E 8 8 }                                                                                                                                
+ O K           D i s k D r i v e                           S K H y n i x _ H F S 0 0 1 T E J 9 X 1 1 5 N                                                                         S C S I \ D I S K & V E N _ N V M E & P R O D _ S K H Y N I X _ H F S 0 0 1 T E \ 5 & 2 B 9 E 6 9 C & 0 & 0 0 0 0 0 0                                                                                                                
+ O K           H I D C l a s s                             B l u e t o o t h   L o w   E n e r g y   G A T T   c o m p l i a n t   H I D   d e v i c e                           B T H L E D E V I C E \ { 0 0 0 0 1 8 1 2 - 0 0 0 0 - 1 0 0 0 - 8 0 0 0 - 0 0 8 0 5 F 9 B 3 4 F B } _ D E V _ V I D & 0 2 3 5 5 4 _ P I D & F A 0 7 _ R E V & 6 7 0 1 _ E F D C C 1 0 8 3 2 4 B \ A & 2 9 0 D F D 4 3 & 0 & 0 0 1 3  
+ O K           H I D C l a s s                             B l u e t o o t h   X I N P U T   c o m p a t i b l e   i n p u t   d e v i c e                                       B T H E N U M \ { 0 0 0 0 1 1 2 4 - 0 0 0 0 - 1 0 0 0 - 8 0 0 0 - 0 0 8 0 5 F 9 B 3 4 F B } _ V I D & 0 0 0 2 0 4 5 E _ P I D & 0 2 E 0 \ 9 & 2 7 8 E 2 5 6 9 & 3 & A 5 B 4 E 7 F B A 9 6 D _ C 0 0 0 0 0 0 0 0                      
+ O K           H I D C l a s s                             g v i n p u t   D e v i c e                                                                                           R O O T \ H I D C L A S S \ 0 0 0 0                                                                                                                                                                                                  
+ O K           H I D C l a s s                             H I D - c o m p l i a n t   c o n s u m e r   c o n t r o l   d e v i c e                                             H I D \ V I D _ 3 5 5 4 & P I D _ F A 0 9 & M I _ 0 1 & C O L 0 2 \ A & 8 E C 7 C 4 8 & 0 & 0 0 0 1                                                                                                                                  
+ O K           H I D C l a s s                             H I D - c o m p l i a n t   c o n s u m e r   c o n t r o l   d e v i c e                                             H I D \ V I D _ 0 4 8 D & P I D _ C 1 0 3 & C O L 0 3 \ 8 & 3 2 F 1 7 8 3 D & 0 & 0 0 0 2                                                                                                                                            
+ O K           H I D C l a s s                             H I D - c o m p l i a n t   c o n s u m e r   c o n t r o l   d e v i c e                                             R Z V I R T U A L \ V I D _ 1 5 3 2 & P I D _ 0 0 8 3 & M I _ 0 0 & C O L 0 3 \ 9 & 8 4 A 8 B 4 9 & 0 & 0 1                                                                                                                          
+ O K           H I D C l a s s                             H I D - c o m p l i a n t   c o n s u m e r   c o n t r o l   d e v i c e                                             H I D \ V I D _ 1 5 3 2 & P I D _ 0 0 8 3 & M I _ 0 0 & C O L 0 3 \ A & 4 5 A C 7 0 & 0 & 0 0 0 0                                                                                                                                    
+ O K           H I D C l a s s                             H I D - c o m p l i a n t   c o n s u m e r   c o n t r o l   d e v i c e                                             H I D \ V I D _ 1 5 3 2 & P I D _ 0 0 8 3 & M I _ 0 1 & C O L 0 3 \ 9 & 8 4 A 8 B 4 9 & 0 & 0 0 0 2                                                                                                                                  
+ O K           H I D C l a s s                             H I D - c o m p l i a n t   d e v i c e                                                                               H I D \ V I D _ 1 5 3 2 & P I D _ 0 0 8 3 & M I _ 0 1 & C O L 0 8 \ 9 & 8 4 A 8 B 4 9 & 0 & 0 0 0 7                                                                                                                                  
+ O K           H I D C l a s s                             H I D - c o m p l i a n t   d e v i c e                                                                               H I D \ V I D _ 1 5 3 2 & P I D _ 0 0 8 3 & M I _ 0 1 & C O L 0 5 \ 9 & 8 4 A 8 B 4 9 & 0 & 0 0 0 4                                                                                                                                  
+ O K           H I D C l a s s                             H I D - c o m p l i a n t   d e v i c e                                                                               H I D \ V I D _ 1 5 3 2 & P I D _ 0 0 8 3 & M I _ 0 1 & C O L 0 7 \ 9 & 8 4 A 8 B 4 9 & 0 & 0 0 0 6                                                                                                                                  
+ O K           H I D C l a s s                             H I D - c o m p l i a n t   d e v i c e                                                                               H I D \ V I D _ 1 5 3 2 & P I D _ 0 0 8 3 & M I _ 0 1 & C O L 0 6 \ 9 & 8 4 A 8 B 4 9 & 0 & 0 0 0 5                                                                                                                                  
+ O K           H I D C l a s s                             H I D - c o m p l i a n t   s y s t e m   c o n t r o l l e r                                                         H I D \ V I D _ 1 5 3 2 & P I D _ 0 0 8 3 & M I _ 0 1 & C O L 0 4 \ 9 & 8 4 A 8 B 4 9 & 0 & 0 0 0 3                                                                                                                                  
+ O K           H I D C l a s s                             H I D - c o m p l i a n t   s y s t e m   c o n t r o l l e r                                                         H I D \ V I D _ 3 5 5 4 & P I D _ F A 0 9 & M I _ 0 1 & C O L 0 3 \ A & 8 E C 7 C 4 8 & 0 & 0 0 0 2                                                                                                                                  
+ O K           H I D C l a s s                             H I D - c o m p l i a n t   t o u c h   p a d                                                                         H I D \ E L A N 0 6 F A & C O L 0 3 \ 4 & 1 2 9 1 8 6 E & 0 & 0 0 0 2                                                                                                                                                                
+ O K           H I D C l a s s                             H I D - c o m p l i a n t   v e n d o r - d e f i n e d   d e v i c e                                                 H I D \ G V I N P U T & C O L 0 5 \ 1 & 2 D 5 9 5 C A 7 & 1 & 0 0 0 4                                                                                                                                                                
+ O K           H I D C l a s s                             H I D - c o m p l i a n t   v e n d o r - d e f i n e d   d e v i c e                                                 H I D \ G V I N P U T & C O L 0 4 \ 1 & 2 D 5 9 5 C A 7 & 1 & 0 0 0 3                                                                                                                                                                
+ O K           H I D C l a s s                             H I D - c o m p l i a n t   v e n d o r - d e f i n e d   d e v i c e                                                 H I D \ V I D _ 3 5 5 4 & P I D _ F A 0 9 & M I _ 0 1 & C O L 0 6 \ A & 8 E C 7 C 4 8 & 0 & 0 0 0 5                                                                                                                                  
+ O K           H I D C l a s s                             H I D - c o m p l i a n t   v e n d o r - d e f i n e d   d e v i c e                                                 H I D \ T E N C E N T M Y A P P S H I D B U S & C O L 0 6 \ 1 & 1 F 8 5 1 A 3 D & 1 & 0 0 0 5                                                                                                                                        
+ O K           H I D C l a s s                             H I D - c o m p l i a n t   v e n d o r - d e f i n e d   d e v i c e                                                 H I D \ T E N C E N T M Y A P P S H I D B U S & C O L 0 7 \ 1 & 1 F 8 5 1 A 3 D & 1 & 0 0 0 6                                                                                                                                        
+ O K           H I D C l a s s                             H I D - c o m p l i a n t   v e n d o r - d e f i n e d   d e v i c e                                                 H I D \ V I D _ 3 5 5 4 & P I D _ F A 0 9 & M I _ 0 1 & C O L 0 1 \ A & 8 E C 7 C 4 8 & 0 & 0 0 0 0                                                                                                                                  
+ O K           H I D C l a s s                             H I D - c o m p l i a n t   v e n d o r - d e f i n e d   d e v i c e                                                 H I D \ T E N C E N T M Y A P P S H I D B U S & C O L 0 4 \ 1 & 1 F 8 5 1 A 3 D & 1 & 0 0 0 3                                                                                                                                        
+ O K           H I D C l a s s                             H I D - c o m p l i a n t   v e n d o r - d e f i n e d   d e v i c e                                                 H I D \ T E N C E N T M Y A P P S H I D B U S & C O L 0 5 \ 1 & 1 F 8 5 1 A 3 D & 1 & 0 0 0 4                                                                                                                                        
+ O K           H I D C l a s s                             H I D - c o m p l i a n t   v e n d o r - d e f i n e d   d e v i c e                                                 H I D \ V I D _ 0 4 8 D & P I D _ C 1 0 3 & C O L 0 1 \ 8 & 3 2 F 1 7 8 3 D & 0 & 0 0 0 0                                                                                                                                            
+ O K           H I D C l a s s                             H I D - c o m p l i a n t   v e n d o r - d e f i n e d   d e v i c e                                                 H I D \ E L A N 0 6 F A & C O L 0 2 \ 4 & 1 2 9 1 8 6 E & 0 & 0 0 0 1                                                                                                                                                                
+ O K           H I D C l a s s                             H I D - c o m p l i a n t   w i r e l e s s   r a d i o   c o n t r o l s                                             H I D \ V I D _ 0 4 8 D & P I D _ C 1 0 3 & C O L 0 4 \ 8 & 3 2 F 1 7 8 3 D & 0 & 0 0 0 3                                                                                                                                            
+ O K           H I D C l a s s                             I 2 C   H I D   D e v i c e                                                                                           A C P I \ E L A N 0 6 F A \ 3 & 6 2 D 7 E 7 3 & 1                                                                                                                                                                                    
+ O K           H I D C l a s s                             M i c r o s o f t   I n p u t   C o n f i g u r a t i o n   D e v i c e                                               H I D \ E L A N 0 6 F A & C O L 0 4 \ 4 & 1 2 9 1 8 6 E & 0 & 0 0 0 3                                                                                                                                                                
+ O K           H I D C l a s s                             R a z e r   B a s i l i s k   X   H y p e r S p e e d                                                                 U S B \ V I D _ 1 5 3 2 & P I D _ 0 0 8 3 & M I _ 0 1 \ 8 & 3 5 E 1 2 B B 7 & 1 & 0 0 0 1                                                                                                                                            
+ O K           H I D C l a s s                             R a z e r   B a s i l i s k   X   H y p e r S p e e d                                                                 U S B \ V I D _ 1 5 3 2 & P I D _ 0 0 8 3 & M I _ 0 0 \ 8 & 3 5 E 1 2 B B 7 & 1 & 0 0 0 0                                                                                                                                            
+ O K           H I D C l a s s                             R a z e r   B a s i l i s k   X   H y p e r S p e e d                                                                 U S B \ V I D _ 1 5 3 2 & P I D _ 0 0 8 3 & M I _ 0 2 \ 8 & 3 5 E 1 2 B B 7 & 1 & 0 0 0 2                                                                                                                                            
+ O K           H I D C l a s s                             U S B   I n p u t   D e v i c e                                                                                       U S B \ V I D _ 3 5 5 4 & P I D _ F A 0 9 & M I _ 0 0 \ 9 & 2 F 0 8 0 E 8 & 0 & 0 0 0 0                                                                                                                                              
+ O K           H I D C l a s s                             U S B   I n p u t   D e v i c e                                                                                       U S B \ V I D _ 3 5 5 4 & P I D _ F A 0 9 & M I _ 0 1 \ 9 & 2 F 0 8 0 E 8 & 0 & 0 0 0 1                                                                                                                                              
+ O K           H I D C l a s s                             U S B   I n p u t   D e v i c e                                                                                       U S B \ V I D _ 0 4 8 D & P I D _ C 1 0 3 \ 7 & 1 B 8 A 7 F B 1 & 0 & 2                                                                                                                                                              
+ O K           K e y b o a r d                             H I D   K e y b o a r d   D e v i c e                                                                                 H I D \ V I D _ 3 5 5 4 & P I D _ F A 0 9 & M I _ 0 1 & C O L 0 4 \ A & 8 E C 7 C 4 8 & 0 & 0 0 0 3                                                                                                                                  
+ O K           K e y b o a r d                             H I D   K e y b o a r d   D e v i c e                                                                                 H I D \ G V I N P U T & C O L 0 3 \ 1 & 2 D 5 9 5 C A 7 & 1 & 0 0 0 2                                                                                                                                                                
+ O K           K e y b o a r d                             H I D   K e y b o a r d   D e v i c e                                                                                 H I D \ V I D _ 1 5 3 2 & P I D _ 0 0 8 3 & M I _ 0 2 \ 9 & 2 1 0 D D 8 E 0 & 0 & 0 0 0 0                                                                                                                                            
+ O K           K e y b o a r d                             H I D   K e y b o a r d   D e v i c e                                                                                 H I D \ V I D _ 0 4 8 D & P I D _ C 1 0 3 & C O L 0 2 \ 8 & 3 2 F 1 7 8 3 D & 0 & 0 0 0 1                                                                                                                                            
+ O K           K e y b o a r d                             H I D   K e y b o a r d   D e v i c e                                                                                 H I D \ V I D _ 3 5 5 4 & P I D _ F A 0 9 & M I _ 0 0 \ A & 1 C 1 C 9 8 8 6 & 0 & 0 0 0 0                                                                                                                                            
+ O K           K e y b o a r d                             H I D   K e y b o a r d   D e v i c e                                                                                 H I D \ T E N C E N T M Y A P P S H I D B U S & C O L 0 3 \ 1 & 1 F 8 5 1 A 3 D & 1 & 0 0 0 2                                                                                                                                        
+ O K           M o u s e                                   H I D - c o m p l i a n t   m o u s e                                                                                 H I D \ T E N C E N T M Y A P P S H I D B U S & C O L 0 2 \ 1 & 1 F 8 5 1 A 3 D & 1 & 0 0 0 1                                                                                                                                        
+ O K           M o u s e                                   H I D - c o m p l i a n t   m o u s e                                                                                 H I D \ V I D _ 1 5 3 2 & P I D _ 0 0 8 3 & M I _ 0 1 & C O L 0 2 \ 9 & 8 4 A 8 B 4 9 & 0 & 0 0 0 1                                                                                                                                  
+ O K           M o u s e                                   H I D - c o m p l i a n t   m o u s e                                                                                 H I D \ E L A N 0 6 F A & C O L 0 1 \ 4 & 1 2 9 1 8 6 E & 0 & 0 0 0 0                                                                                                                                                                
+ O K           M o u s e                                   H I D - c o m p l i a n t   m o u s e                                                                                 H I D \ G V I N P U T & C O L 0 2 \ 1 & 2 D 5 9 5 C A 7 & 1 & 0 0 0 1                                                                                                                                                                
+ O K           M o u s e                                   H I D - c o m p l i a n t   m o u s e                                                                                 H I D \ V I D _ 3 5 5 4 & P I D _ F A 0 9 & M I _ 0 1 & C O L 0 5 \ A & 8 E C 7 C 4 8 & 0 & 0 0 0 4                                                                                                                                  
+ O K           M o u s e                                   H I D - c o m p l i a n t   m o u s e                                                                                 H I D \ G V I N P U T & C O L 0 1 \ 1 & 2 D 5 9 5 C A 7 & 1 & 0 0 0 0                                                                                                                                                                
+ O K           M o u s e                                   H I D - c o m p l i a n t   m o u s e                                                                                 H I D \ T E N C E N T M Y A P P S H I D B U S & C O L 0 1 \ 1 & 1 F 8 5 1 A 3 D & 1 & 0 0 0 0                                                                                                                                        
+ O K           M y A p p s V i r t u a l B u s             M y A p p s U s b C o n t r o l l e r   D e v i c e                                                                   R O O T \ M Y A P P S V I R T U A L B U S \ 0 0 0 1                                                                                                                                                                                  
+ O K           M y A p p s V i r t u a l B u s             T M y A p p s H i d B u s   D e v i c e                                                                               R O O T \ M Y A P P S V I R T U A L B U S \ 0 0 0 0                                                                                                                                                                                  
+ O K           P o r t s                                   ݄Yr���c
+N�vh�Q2NL�  ( C O M 4 )                                                                                     B T H E N U M \ { 0 0 0 0 1 1 0 1 - 0 0 0 0 - 1 0 0 0 - 8 0 0 0 - 0 0 8 0 5 F 9 B 3 4 F B } _ L O C A L M F G & 0 0 5 D \ 9 & 2 9 0 2 0 5 8 & 2 & 0 1 0 2 0 3 0 4 2 9 9 6 _ C 0 0 0 0 0 0 0 0                                        
+ O K           P o r t s                                   ݄Yr���c
+N�vh�Q2NL�  ( C O M 6 )                                                                                     B T H E N U M \ { 0 0 0 0 1 1 0 1 - 0 0 0 0 - 1 0 0 0 - 8 0 0 0 - 0 0 8 0 5 F 9 B 3 4 F B } _ L O C A L M F G & 0 0 0 0 \ 9 & 2 9 0 2 0 5 8 & 2 & 0 0 0 0 0 0 0 0 0 0 0 0 _ 0 0 0 0 0 0 0 5                                          
+ O K           P o r t s                                   ݄Yr���c
+N�vh�Q2NL�  ( C O M 7 )                                                                                     B T H E N U M \ { 0 0 0 0 1 1 0 1 - 0 0 0 0 - 1 0 0 0 - 8 0 0 0 - 0 0 8 0 5 F 9 B 3 4 F B } _ V I D & 0 0 0 1 0 5 D 6 _ P I D & 0 0 0 A \ 9 & 2 9 0 2 0 5 8 & 2 & 4 4 F B 7 6 3 D F F D 5 _ C 0 0 0 0 0 0 0 0                        
+ O K           P o r t s                                   ݄Yr���c
+N�vh�Q2NL�  ( C O M 9 0 )                                                                                   B T H E N U M \ { 0 0 0 0 1 1 0 1 - 0 0 0 0 - 1 0 0 0 - 8 0 0 0 - 0 0 8 0 5 F 9 B 3 4 F B } _ L O C A L M F G & 0 0 0 0 \ 9 & 2 9 0 2 0 5 8 & 2 & 0 0 0 0 0 0 0 0 0 0 0 0 _ 0 0 0 0 0 0 0 2                                          
+ O K           S o f t w a r e C o m p o n e n t           G e n e r i c   s o f t w a r e   c o m p o n e n t                                                                   S W D \ D R I V E R E N U M \ { D 5 C D 8 5 4 9 - 8 B C 8 - 4 2 8 B - B 0 2 B - D 6 0 E 2 4 9 6 6 A 3 7 } # T O B I I M I D D L E W A R E C O M P O N E N T & 8 & 1 3 B 2 4 C 8 B & 2                                                
+ O K           S y s t e m                                 C o m p o s i t e   B u s   E n u m e r a t o r                                                                       R O O T \ C O M P O S I T E B U S \ 0 0 0 0                                                                                                                                                                                          
+ O K           S y s t e m                                 L e n o v o   A C P I - C o m p l i a n t   V i r t u a l   P o w e r   C o n t r o l l e r                           A C P I \ V P C 2 0 0 4 \ 0                                                                                                                                                                                                          
+ O K           S y s t e m                                 M i c r o s o f t   A C P I - C o m p l i a n t   E m b e d d e d   C o n t r o l l e r                               A C P I \ P N P 0 C 0 9 \ 1                                                                                                                                                                                                          
+ O K           S y s t e m                                 M i c r o s o f t   A C P I - C o m p l i a n t   S y s t e m                                                         A C P I _ H A L \ P N P 0 C 0 8 \ 0                                                                                                                                                                                                  
+ O K           S y s t e m                                 M i c r o s o f t   U E F I - C o m p l i a n t   S y s t e m                                                         A C P I _ H A L \ U E F I \ 0                                                                                                                                                                                                        
+ O K           S y s t e m                                 O r a y U S B V H C I                                                                                                 R O O T \ O R A Y U S B V H C I \ 0 0 0 0                                                                                                                                                                                            
+ O K           S y s t e m                                 P C I   E x p r e s s   R o o t   C o m p l e x                                                                       A C P I \ P N P 0 A 0 8 \ 0                                                                                                                                                                                                          
+ O K           U S B                                       A M D   U S B   2 . 0   e X t e n s i b l e   H o s t   C o n t r o l l e r   -   1 . 2 0   ( M i c r o s o f t )     P C I \ V E N _ 1 0 2 2 & D E V _ 1 5 B 8 & S U B S Y S _ 3 8 2 A 1 7 A A & R E V _ 0 0 \ 4 & 1 C E C 1 5 E 5 & 0 & 0 0 4 3                                                                                                          
+ O K           U S B                                       A M D   U S B   3 . 1 0   e X t e n s i b l e   H o s t   C o n t r o l l e r   -   1 . 2 0   ( M i c r o s o f t )   P C I \ V E N _ 1 0 2 2 & D E V _ 1 5 B 7 & S U B S Y S _ 3 8 2 9 1 7 A A & R E V _ 0 0 \ 4 & 6 C 4 A D 2 8 & 0 & 0 4 4 1                                                                                                            
+ O K           U S B                                       A M D   U S B   3 . 1 0   e X t e n s i b l e   H o s t   C o n t r o l l e r   -   1 . 2 0   ( M i c r o s o f t )   P C I \ V E N _ 1 0 2 2 & D E V _ 1 5 B 6 & S U B S Y S _ 3 8 2 8 1 7 A A & R E V _ 0 0 \ 4 & 6 C 4 A D 2 8 & 0 & 0 3 4 1                                                                                                            
+ O K           U S B                                       G e n e r i c   S u p e r S p e e d   U S B   H u b                                                                   U S B \ V I D _ 0 B D A & P I D _ 0 4 1 1 \ 6 & 1 9 A 9 4 5 7 F & 0 & 4                                                                                                                                                              
+ O K           U S B                                       G e n e r i c   U S B   H u b                                                                                         U S B \ V I D _ 0 B D A & P I D _ 5 4 1 1 \ 6 & 1 9 A 9 4 5 7 F & 0 & 2                                                                                                                                                              
+ O K           U S B                                       G e n e r i c   U S B   H u b                                                                                         U S B \ V I D _ 0 5 E 3 & P I D _ 0 6 0 8 \ 7 & 1 C E C 8 A 8 9 & 0 & 2                                                                                                                                                              
+ O K           U S B                                       G e n e r i c   U S B   H u b                                                                                         U S B \ V I D _ 0 5 E 3 & P I D _ 0 6 1 0 \ 6 & 2 5 C 9 9 8 5 C & 0 & 1                                                                                                                                                              
+ O K           U S B                                       U S B   C o m p o s i t e   D e v i c e                                                                               U S B \ V I D _ 1 5 3 2 & P I D _ 0 0 8 3 \ 7 & 1 C E C 8 A 8 9 & 0 & 3                                                                                                                                                              
+ O K           U S B                                       U S B   C o m p o s i t e   D e v i c e                                                                               U S B \ V I D _ 0 4 F 2 & P I D _ B 7 B 8 \ 0 1 . 0 0 . 0 0                                                                                                                                                                          
+ O K           U S B                                       U S B   C o m p o s i t e   D e v i c e                                                                               U S B \ V I D _ 3 5 5 4 & P I D _ F A 0 9 \ 8 & 3 1 6 2 7 2 7 A & 2 & 2                                                                                                                                                              
+ O K           U S B                                       U S B   M a s s   S t o r a g e   D e v i c e                                                                         U S B \ V I D _ 4 C 4 A & P I D _ 3 4 4 2 \ 6 & 1 9 A 9 4 5 7 F & 0 & 1                                                                                                                                                              
+ O K           U S B                                       U S B   R o o t   H u b   ( U S B   3 . 0 )                                                                           U S B \ R O O T _ H U B 3 0 \ 5 & 3 7 3 0 C E 2 7 & 0 & 0                                                                                                                                                                            
+ O K           U S B                                       U S B   R o o t   H u b   ( U S B   3 . 0 )                                                                           U S B \ R O O T _ H U B 3 0 \ 5 & 1 6 B 0 E 9 5 3 & 0 & 0                                                                                                                                                                            
+ O K           U S B                                       U S B   R o o t   H u b   ( U S B   3 . 0 )                                                                           U S B \ R O O T _ H U B 3 0 \ 5 & E 4 2 E 7 F D & 0 & 0                                                                                                                                                                              
+  
+  
+  
+ = = =   U N K N O W N   O R   E R R O R   D E V I C E S   = = =  
+ === FINAL QUICK DISK/USB CHECK ===
+
+
+Model         : SKHynix_HFS001TEJ9X115N
+InterfaceType : SCSI
+PNPDeviceID   : SCSI\DISK&VEN_NVME&PROD_SKHYNIX_HFS001TE\5&2B9E69C&0&000000
+Status        : OK
+Size          : 1024203640320
+
+Model         : BD19 UBOOT1.00 USB Device
+InterfaceType : USB
+PNPDeviceID   : USBSTOR\DISK&VEN_BD19&PROD_UBOOT1.00&REV_1.00\7&6A1CA24&0
+Status        : OK
+Size          : 
+
+Model         : Microsoft Storage Space Device
+InterfaceType : SCSI
+PNPDeviceID   : STORAGE\DISK\{26FB08BA-03FB-484D-8E0C-75D01740AE88}
+Status        : OK
+Size          : 2047889088000
+
+
+
+
+
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "USB\ROOT_HUB30\5&3730CE27&0&0")
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "USB\VID_05E3&PID_0610\6&25C9985C&0&1")
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "USB\VID_0BDA&PID_5852\00E04C000001")
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTH\MS_RFCOMM\8&193AC876&1&0")
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{00001101-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{00001101-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{00001101-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{00001101-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTH\MS_BTHBRB\8&193AC876&1&1")
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{00000837-D102-11E1-9B23-00025B...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{00000837-D103-0001-BF7F-294215...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{00001105-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{0000110A-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{00001112-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{00001115-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{00001116-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{0000111F-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHHFENUM\BTHHFPAUDIO\A&C651B70&0&97")
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{00001124-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{0000112F-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{00001132-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{00001200-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{00001800-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{00001800-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{00001801-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{00001801-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{00001855-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{00007033-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{00007034-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{2C042B0A-7F57-4C0A-AFCF-1762AF...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{8486EB04-D102-11E1-9B23-00025B...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{8FA9C715-BD1F-596C-A1B0-13162B...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{9FED64FD-E91A-499E-88DD-73DFE0...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\DEV_010203042996\9&278E2569&3&B...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\DEV_44FB763DFFD5\9&278E2569&3&B...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\DEV_7834FDB5DD74\9&278E2569&3&B...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\DEV_A5B4E7FBA96D\9&278E2569&3&B...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{0000110B-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{0000110C-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{0000110E-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{0000111E-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHHFENUM\BTHHFPAUDIO\A&8B841D9&0&97")
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{0000110B-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{0000110C-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{0000110C-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{0000110E-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{0000110E-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHENUM\{0000111E-0000-1000-8000-00805F...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHHFENUM\BTHHFPAUDIO\A&677D8D6&0&97")
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTH\MS_BTHPAN\8&193AC876&1&2")
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTH\MS_BTHLE\8&193AC876&1&3")
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHLE\DEV_567BF32A33E5\9&10D8DC01&3&567...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHLEDEVICE\{00001801-0000-1000-8000-00...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHLEDEVICE\{00001800-0000-1000-8000-00...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHLEDEVICE\{00001849-0000-1000-8000-00...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHLEDEVICE\{00001855-0000-1000-8000-00...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHLEDEVICE\{2C042B0A-7F57-4C0A-AFCF-17...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHLEDEVICE\{9FED64FD-E91A-499E-88DD-73...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHLE\DEV_C8C2C67B1F69\9&10D8DC01&3&C8C...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHLEDEVICE\{00001800-0000-1000-8000-00...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHLEDEVICE\{00001801-0000-1000-8000-00...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHLEDEVICE\{0000FEE8-0000-1000-8000-00...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHLEDEVICE\{0000FEE9-0000-1000-8000-00...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHLE\DEV_EFDCC108324B\9&10D8DC01&3&EFD...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHLEDEVICE\{00001800-0000-1000-8000-00...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHLEDEVICE\{0000180A-0000-1000-8000-00...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHLEDEVICE\{0000180F-0000-1000-8000-00...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "BTHLEDEVICE\{00001812-0000-1000-8000-00...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "USB\VID_048D&PID_C103\7&1B8A7FB1&0&2")
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "HID\VID_048D&PID_C103&COL01\8&32F1783D&...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "HID\VID_048D&PID_C103&COL02\8&32F1783D&...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "HID\VID_048D&PID_C103&COL03\8&32F1783D&...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B8&SUBSYS_382A17AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "HID\VID_048D&PID_C103&COL04\8&32F1783D&...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "USB\ROOT_HUB30\5&16B0E953&0&0")
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "USB\VID_0BDA&PID_0411\6&19A9457F&0&4")
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "USB\VID_0BDA&PID_5411\6&19A9457F&0&2")
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "USB\VID_1532&PID_0083\7&1CEC8A89&0&3")
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "USB\VID_1532&PID_0083&MI_00\8&35E12BB7&...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "HID\VID_1532&PID_0083&MI_00\9&200E178E&...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "RZCONTROL\VID_1532&PID_0083&MI_00\A&19A...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "USB\VID_1532&PID_0083&MI_01\8&35E12BB7&...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "HID\VID_1532&PID_0083&MI_01&COL01\9&84A...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "HID\VID_1532&PID_0083&MI_01&COL02\9&84A...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "HID\VID_1532&PID_0083&MI_01&COL03\9&84A...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "HID\VID_1532&PID_0083&MI_01&COL04\9&84A...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "HID\VID_1532&PID_0083&MI_01&COL05\9&84A...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "HID\VID_1532&PID_0083&MI_01&COL06\9&84A...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "HID\VID_1532&PID_0083&MI_01&COL07\9&84A...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "HID\VID_1532&PID_0083&MI_01&COL08\9&84A...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "RZVIRTUAL\VID_1532&PID_0083&MI_00&COL03...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "HID\VID_1532&PID_0083&MI_00&COL03\A&45A...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "USB\VID_1532&PID_0083&MI_02\8&35E12BB7&...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "HID\VID_1532&PID_0083&MI_02\9&210DD8E0&...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "USB\VID_04F2&PID_B7B8\01.00.00")
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "USB\VID_04F2&PID_B7B8&MI_00\8&13B24C8B&...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "SWD\DRIVERENUM\{D5CD8549-8BC8-428B-B02B...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "USB\VID_05E3&PID_0608\7&1CEC8A89&0&2")
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "USB\VID_3554&PID_FA09\8&3162727A&2&2")
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "USB\VID_3554&PID_FA09&MI_00\9&2F080E8&0...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "HID\VID_3554&PID_FA09&MI_00\A&1C1C9886&...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "USB\VID_3554&PID_FA09&MI_01\9&2F080E8&0...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "HID\VID_3554&PID_FA09&MI_01&COL01\A&8EC...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "HID\VID_3554&PID_FA09&MI_01&COL02\A&8EC...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "HID\VID_3554&PID_FA09&MI_01&COL03\A&8EC...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "HID\VID_3554&PID_FA09&MI_01&COL04\A&8EC...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "HID\VID_3554&PID_FA09&MI_01&COL05\A&8EC...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "HID\VID_3554&PID_FA09&MI_01&COL06\A&8EC...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "USB\VID_4C4A&PID_3442\6&19A9457F&0&1")
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B7&SUBSYS_382917AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "USBSTOR\DISK&VEN_BD19&PROD_UBOOT1.00&RE...)
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+Antecedent          : Win32_USBController (DeviceID = "PCI\VEN_1022&DEV_15B6&SUBSYS_382817AA&R...)
+Dependent           : Win32_PnPEntity (DeviceID = "USB\ROOT_HUB30\5&E42E7FD&0&0")
+NegotiatedDataWidth : 
+NegotiatedSpeed     : 
+AccessState         : 
+NumberOfHardResets  : 
+NumberOfSoftResets  : 
+PSComputerName      : 
+
+
+
+

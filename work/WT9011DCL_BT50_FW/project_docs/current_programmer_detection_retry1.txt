@@ -1,0 +1,16 @@
+﻿=== RETRY1 USB DETECTION 2026-07-23 16:42:10 ===
+=== Unknown/Error devices ===
+
+=== BD19/USB disk devices ===
+
+
+Model         : BD19 UBOOT1.00 USB Device
+InterfaceType : USB
+PNPDeviceID   : USBSTOR\DISK&VEN_BD19&PROD_UBOOT1.00&REV_1.00\7&6A1CA24&0
+Status        : OK
+Size          : 
+
+
+
+
+=== Targeted PnP ===
