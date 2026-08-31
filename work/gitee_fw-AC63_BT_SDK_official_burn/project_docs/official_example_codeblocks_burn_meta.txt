@@ -1,0 +1,4 @@
+﻿start=20260723_174247
+project=D:\23178\JL\work\gitee_fw-AC63_BT_SDK_official_burn\apps\spp_and_le\board\bd19\AC632N_spp_and_le.cbp
+target=Release
+source_commit=b355973
